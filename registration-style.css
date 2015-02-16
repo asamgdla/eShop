@@ -39,8 +39,8 @@ td {
 	top: 10px;
 }
 
-#login {
-	background-color: #d3d3d3;
+.animbutton {
+	background-color: #909090;
 	-moz-border-radius: 5px; /* Mozilla Firefox */
 	-webkit-border-radius: 5px; /* Chrome */
 	border-radius:6px; /* Default */
@@ -49,6 +49,6 @@ td {
 	cursor: pointer; /* Defines the type of cursor to be displayed when pointing on an element */
 }
 
-#login:hover {
+.animbutton:hover {
 	background:#202020;
 }

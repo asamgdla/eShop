@@ -1,0 +1,54 @@
+h2 {
+	color: #00008B;
+	font-family: Brush Script MT,cursive; 
+}
+
+body {
+	background-image: url("background.jpg");
+    background-repeat: no-repeat;
+}
+
+td {
+	padding: 5px;
+}
+
+#logo {
+	width: 120px;
+	height: 120px;
+}
+
+#logodiv {
+	float:left;
+	position: relative;
+	right: -40px;
+	top: 7px;
+}
+	
+#titlediv {
+	float:left;
+	position: relative;
+	right: -60px;
+	top: 7px;
+}
+
+#membershipdiv {
+	font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif; 
+	float:left;
+	position: relative;
+	right: -500px;
+	top: 10px;
+}
+
+#login {
+	background-color: #909090;
+	-moz-border-radius: 5px; /* Mozilla Firefox */
+	-webkit-border-radius: 5px; /* Chrome */
+	border-radius:6px; /* Default */
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer; /* Defines the type of cursor to be displayed when pointing on an element */
+}
+
+#login:hover {
+	background:#202020;
+}

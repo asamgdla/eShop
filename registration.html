@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head> <!-- Head is used to declare information about the web-page -->
+
+	<title>Sign Up - eShop Account</title>
+	
+	<meta name="description" content="On-line Shopping"> <!-- The meta tag defines page description, keywords and other data -->
+	
+	<link rel="stylesheet" type="text/css" href="registration-style.css">
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+	<script language="javascript" type="text/javascript" src="registration-jscript.js"></script>
+		
+</head>
+
+<body> <!-- Visible part of the web-page -->
+
+<div id="maindiv">
+	<div id="logodiv">
+		<img src="logo.png" id="logo" alt="eShop.com">
+	</div>
+	
+	<div id= "titlediv">
+		<h1> eShop </h1>
+		<h2> Your Virtual Shop </h2>		
+	</div>
+	
+	<div id= "membershipdiv">
+		<form action="db.php" method="post">
+			<table id="memtable">
+							
+				<tr> <!-- New table Row -->
+					<td style="color:#333333"> Email: </td> <!-- New Table Column -->
+					<td> <input type="text" name="useremail" id="loginemail"> </td>
+					<td id="emailrequired" style ="color:red; font-family: TimesNewRoman,serif;"> </td>
+				</tr>
+				
+				<tr>
+					<td style="color:#333333"> Password: </td>
+					<td> <input type="password" name="userpassword" id="loginpassword"> </td>
+					<td id="passwordrequired" style = "color:red; font-family: TimesNewRoman,serif;"></td>
+				</tr>
+				
+				<tr>
+					<td> <input type="checkbox" style="color:#333333">Remember Me?<br> </td>
+					<td> <input type="button" id="login" value="Login" class="animbutton"> </td> <!-- Submits all the data in the form to the server -->					
+				</tr>				
+				
+				<tr>
+					<td colspan = "3"> Not a Member Yet? <a href="Register.html"> Sign Up Now!</a> </td> <!-- Colspan defines the number of columns a cell should occupy -->
+				</tr>
+				
+			</table>
+		</form>
+	</div>
+	
+		
+	
+	<div style="clear: both;"> <!-- Clear the float -->
+		<br>
+		<hr> 
+	</div>
+	
+	<div>
+		<p style="font-weight:bold; font-size:40px; position:relative; left:20px;"> Register </p>
+				
+		<table style="font-size: 20px; position:relative; left:20px; font-family: Lucida Bright,Georgia,serif;">
+			<tr>
+				<td> First Name: </td>
+				<td> Last Name: </td>
+			</tr>
+			
+			<form action="db.php" method="post">
+				<tr>
+					<td> <input type="text" name="firstname" id="fname"> </td>
+					<td> <input type="text" name="lastname" id="lname"> </td>
+				</tr>
+			</form>
+			
+			<tr>
+				<td> Email*: </td>
+				<td> Avatar: </td>
+			</tr>
+			
+			<tr>
+				<td> <form action="db.php" method="post"> <input type="text" name="useremail" id="email"> </form> </td>
+				<td> <form action="upload.php" method="post" enctype="multipart/form-data"> <input type="button" name="useravatar" value="Browse" id="avatar"> </td>
+			</tr>
+			
+			<tr>
+				<td> Password*: </td>
+				<td> Confirm Password*: </td>			
+			</tr>
+			
+			<form action="db.php" method="post">
+				<tr>
+					<td> <input type="text" name="userpassword" id="password"> </td>
+					<td> <input type="text" name="userpasswordconfirm" id="passwordconfirm"> </td>
+				</tr>
+			</form>
+			
+			<tr>
+				<td colspan="2"><i>*Required Fields</i></td>
+			</tr>
+			
+			<tr>
+				<td></td>
+				<td> <input type="button" id="reg" value="Register" class="animbutton" style="font-size:18px;"> </td>
+			</tr>
+			
+		</table>
+		
+	
+	
+	
+	</div>
+	
+	
+</div>
+
+
+
+
+
+</body>
+
+
+</html>
