@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head> <!-- Head is used to declare information about the web-page -->
+
+	<title>eShop</title>
+	
+	<meta name="description" content="On-line Shopping"> <!-- The meta tag defines page description, keywords and other data -->
+	
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+	<script language="javascript" type="text/javascript" src="jscript.js"></script>
+		
+</head>
+
+<body> <!-- Visible part of the web-page -->
+
+<div id="maindiv">
+	<div id="logodiv">
+		<img src="logo.png" id="logo" alt="eShop.com">
+	</div>
+	
+	<div id= "titlediv">
+		<h1> eShop </h1>
+		<h2> Your Virtual Shop </h2>		
+	</div>
+	
+	<div id= "membershipdiv">
+	
+		<table id="memtable">
+						
+			<tr> <!-- New table Row -->
+				<td style="color:#333333"> Email: </td> <!-- New Table Column -->
+				<td> <input type="text" id="loginemail"> </td>
+				<td id="emailrequired" style ="color:red; font-family: TimesNewRoman,serif;"> </td>
+			</tr>
+			
+			<tr>
+				<td style="color:#333333"> Password: </td>
+				<td> <input type="password" id="loginpassword"> </td>
+				<td id="passwordrequired" style = "color:red; font-family: TimesNewRoman,serif;"></td>
+			</tr>
+			
+			<tr>
+				<td> <input type="checkbox" style="color:#333333">Remember Me?<br> </td>
+				<td> <button type="button" id="login" >Login</input> </td> <!-- Submits all the data in the form to the server -->					
+			</tr>				
+			
+			<tr>
+				<td colspan = "3"> Not a Member Yet? <a href="Register.html"> Sign Up Now!</a> </td> <!-- Colspan defines the number of columns a cell should occupy -->
+			</tr>
+			
+		</table>		
+	</div>
+	
+		
+	
+	<div style="clear: both;"> <!-- Clear the float -->
+		<br>
+		<hr> 
+	</div>
+	
+	
+</div>
+
+
+
+
+
+</body>
+
+
+</html>
