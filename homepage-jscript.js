@@ -36,7 +36,7 @@ $(document).ready(function(){ //When the document is ready, execute this functio
 		}
 		
 		if(emailvalid && passvalid) {
-			$("#membershipdiv").hide(1200, function(){ //Don't hide the div immediately (JQuery Effects), and after hiding, execute the following function
+			$("#membershipdiv").hide(1200, function(){ //Don't hide the div immediately (JQuery Effects), and after hiding, execute the following callback function
 
 			}); 
 		}  
