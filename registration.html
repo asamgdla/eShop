@@ -47,7 +47,7 @@
 				
 				<tr>
 					<td> <input type="checkbox" style="color:#333333">Remember Me?<br> </td>
-					<td> <input type="button" id="login" value="Login" class="animbutton"> </td> <!-- Submits all the data in the form to the server -->					
+					<td> <input type="submit" id="login" value="Login" class="animbutton"> </td> <!-- Submits all the data in the form to the server -->					
 				</tr>				
 				
 				<tr>
@@ -67,56 +67,54 @@
 	
 	<div style="float:left">
 		<p style="font-weight:bold; font-size:40px; position:relative; left:20px;"> Register </p>
+		
+		<form action="db.php" method="post" enctype="multipart/form-data">
+			<table style="font-size: 20px; position:relative; left:20px; font-family: Lucida Bright,Georgia,serif;">
+				<tr>
+					<td> First Name: </td>
+					<td> Last Name: </td>
+				</tr>
 				
-		<table style="font-size: 20px; position:relative; left:20px; font-family: Lucida Bright,Georgia,serif;">
-			<tr>
-				<td> First Name: </td>
-				<td> Last Name: </td>
-			</tr>
-			
-			<form action="db.php" method="post">
 				<tr>
 					<td> <input type="text" name="firstname" id="fname"> </td>
 					<td> <input type="text" name="lastname" id="lname"> </td>
 				</tr>
-			</form>
-			
-			<tr>
-				<td> Email*: </td>
-				<td> Avatar: </td>
-			</tr>
-			
-			<tr>
-				<td> <form action="db.php" method="post"> <input type="text" name="useremail" id="email"> </form> </td>
-				<td> <form action="upload.php" method="post" enctype="multipart/form-data"> <input type="button" name="useravatar" value="Browse" id="avatar"> </td>
-			</tr>
-			
-			<tr>
-				<td> Password*: </td>
-				<td> Confirm Password*: </td>			
-			</tr>
-			
-			<form action="db.php" method="post">
+				
+				<tr>
+					<td> Email*: </td>
+					<td> Avatar: </td>
+				</tr>
+				
+				<tr>
+					<td> <input type="text" name="useremail" id="email"> </td>
+					<td> <input type="button" name="useravatar" value="Browse" id="avatar"> </td>
+				</tr>
+				
+				<tr>
+					<td> Password*: </td>
+					<td> Confirm Password*: </td>			
+				</tr>
+				
 				<tr>
 					<td> <input type="text" name="userpassword" id="password"> </td>
 					<td> <input type="text" name="userpasswordconfirm" id="passwordconfirm"> </td>
 				</tr>
-			</form>
-			
-			<tr>
-				<td colspan="2"><i>*Required Fields</i></td>
-			</tr>
-			
-			<tr>
-				<td></td>
-				<td align="center"> <input type="button" id="reg" value="Register" class="animbutton" style="font-size:18px;"> </td>
-			</tr>
-			
-		</table>	
+				
+				<tr>
+					<td colspan="2"><i>*Required Fields</i></td>
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td align="center"> <input type="submit" id="reg" value="Sign Up!" class="animbutton" style="font-size:18px;"> </td>
+				</tr>
+				
+			</table>
+		</form>
 	</div>
 	
 	<div style="float:left;">
-		<img src="shoppingcart.png" alt="shoppingcart.png" style="width:350px; height:271px; position: relative; left: 380px; top:100px;">
+		<img src="shoppingcart.png" alt="shoppingcart.png" style="width:350px; height:271px; position: relative; left: 380px; top:120px;">
 	</div>
 	
 	
