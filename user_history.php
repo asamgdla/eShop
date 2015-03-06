@@ -72,6 +72,8 @@
 		}
 	</style>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<link rel="shortcut icon" href="logo.png">
+
 	<script>
 		$(document).ready(function(){
 			var email = $("#emvalue").val();

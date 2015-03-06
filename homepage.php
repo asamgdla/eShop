@@ -82,6 +82,8 @@
 	<meta name="description" content="On-line Shopping"> <!-- The meta tag defines page description, keywords and other data -->
 	
 	<link rel="stylesheet" type="text/css" href="homepage-style.css">
+
+	<link rel="shortcut icon" href="logo.png">
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 

@@ -52,6 +52,8 @@
 ?>
 
 <head>
+		<link rel="shortcut icon" href="logo.png">
+
 	<title> <?php echo $pname; ?></title>
 	<style>
 		h2 {
@@ -96,7 +98,10 @@
 		}
 
 	</style>
+
+
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
 
 	<script>
 	$(document).ready(function(){
