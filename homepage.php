@@ -91,7 +91,7 @@
 
 </head>
 
-<body> <!-- Visible part of the web-page -->
+<body id = 'hbody'> <!-- Visible part of the web-page -->
 	
 
 <?php echo "<option id='currentval' value='".$current."' style='display:none'></option>";?> <!-- Storing a PHP value in an HTML tag for use in JQuery -->

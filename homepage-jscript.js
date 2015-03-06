@@ -53,12 +53,15 @@ $(document).ready(function(){ //When the document is ready, execute this functio
 
 	$("#nextpage").click(function(){ 
 		var current = parseInt($("#currentval").val()) + 6;
+		$("#hbody").hide(1200, function(){
 		window.location.replace("homepage.php?current="+current+"&loginemail="+$("#emailval").val());
+		});
 	});
 
 	$("#previouspage").click(function(){ 
 		var current = parseInt($("#currentval").val()) - 6;
-
+		$("#hbody").hide(1200, function(){
 		window.location.replace("homepage.php?current="+current+"&loginemail="+$("#emailval").val());
+		});
 	});
 });

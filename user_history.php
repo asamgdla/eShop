@@ -166,11 +166,15 @@
 
 <div>
 	<br><br>
-<p style="float:left; position:relative; font-family: Franklin Gothic Medium, Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif; font-size:23px; 
-bottom: 24px; left: 560px; font-weight:bold;">
-			Purchases History</p><br>
 
-			<table id='historytable' style='position:relative; left:100px; top:45px;' >
+	<center>
+<p style="font-family: Franklin Gothic Medium, Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif; font-size:23px; 
+ font-weight:bold;">
+			Purchases History</p></center><br>
+
+
+<center>
+			<table id='historytable' >
 
 				<tr> <td><labels>Product Id</labels></td>
 					<td><labels>Product Name</labels></td>
@@ -181,7 +185,7 @@ bottom: 24px; left: 560px; font-weight:bold;">
 				</tr>
 
 			</table>
-
+</center>
 </div>
 
 
