@@ -5,7 +5,6 @@ h2 {
 
 body {
 	background-image: url("background.jpg");
-    background-repeat: no-repeat;
 }
 
 td {
@@ -39,6 +38,11 @@ td {
 	top: 10px;
 }
 
+#reqf {
+	font-size: 15px;
+	color: #ff0000;
+}
+
 .animbutton { /* Defines a style for a class */
 	background-color: #909090;
 	-moz-border-radius: 5px; /* Mozilla Firefox */
@@ -52,3 +56,14 @@ td {
 .animbutton:hover {
 	background:#202020;
 }
+
+ inv { /* Creating our own html tag */
+	display:block;
+	font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif; 
+	font-size:15px; 
+	color:#ff0000;
+ }
+ 
+ fld{
+ 	display:block;
+ }
