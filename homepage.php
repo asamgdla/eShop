@@ -162,7 +162,7 @@ echo "
 	
 </div>
 
-
+<center>
 <table style="clear:both;">
 	<?php 
 		for($i = $current; $i < $current+6; $i++) {
@@ -208,6 +208,8 @@ echo "
 		}
 	?>
 </table>
+
+</center>
 
 <center>
 
