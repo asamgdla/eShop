@@ -111,7 +111,7 @@
 
 if(strcasecmp($loginem,"") == 0){
 echo "
-	<div id= 'membershipdiv'>
+	<div id= 'membershipdiv' style='position:relative;left:620px;top:20px;'>
 		<table id='memtable'>
 						
 			<tr> 
@@ -127,11 +127,8 @@ echo "
 			</tr>
 			
 			<tr>
-				<td> <input type='checkbox' style='color:#333333'>Remember Me?<br> </td>
 				<td> <input type='submit' id='login' value='Login'> </td> 				
-			</tr>				
 			
-			<tr>
 				<td colspan = '3'> Not a Member Yet? <a href='registration.html'> Sign Up Now!</a> </td> 
 			</tr>
 			
@@ -160,7 +157,6 @@ echo "
 		
 	
 	<div style="clear: both;"> <!-- Clear the float -->
-		<br>
 		<hr> 
 	</div>
 	
